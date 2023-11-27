@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cops And Robbers</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div id="mode">
+        <button id="light-mode">다크모드로 보기</button>
+      </div>
+      <div id="container">
+        <table id="table">
+          <caption style="margin-bottom: 30px">
+            경찰을 피해 도망가세요! (키보드 방향키 이용)
+          </caption>
+            <tr>
+                <td><img src="/images/white.png" id="left-top"></td>
+                <td><img src="/images/police.png" id="right-top"></td>
+            </tr>
+            <tr>
+                <td><img src="/images/theft.png" id="left-bottom"></td>
+                <td><img src="/images/white.png" id="right-bottom"></td>
+            </tr>
+        </table>
+            <p class="popup">GAME OVER!!!
+                <img src="/images/end.JPG">
+                <button id="restart"><a href="index.html">RESTART</a></button>
+            </p>
+    </div>
+</body>
+</html>
